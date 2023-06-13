@@ -150,6 +150,7 @@ a {
   font-size: calc( (100vw - 320px)/(1920 - 320) * (32 - 13.5) + 13.5px);
   line-height: calc( (100vw - 320px)/(1920 - 320) * (42 - 18) + 18px);
   margin-bottom: calc( (100vw - 320px)/(1920 - 320) * (27 - 15) + 15px);
+  position: relative;
 }
 .header__bottom-descr{
   margin-left: 55px;
@@ -166,7 +167,7 @@ a {
 }
 .header__bottom-subtext::before{
   content: '';
-  background-image: url('../images/green_arrow.svg');
+  background-image: url('images/green_arrow.svg');
   display: inline-block;
   width: 15px;
   height: 26px;
