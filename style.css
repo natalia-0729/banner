@@ -417,7 +417,7 @@ a {
   }
   .header__bottom-subtext::before{
     content: '';
-    background-image: url('../images/green-arrow_mobile.svg');
+    background-image: url('images/green-arrow_mobile.svg');
     display: inline-block;
     width: 10px;
     height: 20px;
